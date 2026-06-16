@@ -6,7 +6,6 @@ This repository demonstrates a foundational quantitative workflow used in **Heal
 Using R, this project conducts a Kaplan-Meier survival analysis on the NCCTG advanced lung cancer dataset. The primary objective is to evaluate survival probabilities across different patient cohorts (stratified by gender) to simulate the clinical data processing phase required for building Cost-Effectiveness Models (e.g., Markov Models) for Health Technology Assessment (HTA) submissions.
 
 ## Visual Output
-*(Note: Upload your `survival_curve.png` to the repository to display the chart here)*
 ![Kaplan-Meier Survival Curve](survival_curve.png)
 
 ## Methodology
