@@ -24,3 +24,10 @@ Using R, this project conducts a Kaplan-Meier survival analysis on the NCCTG adv
 ## Repository Contents
 *   `survival_analysis.R`: The complete, fully commented R script detailing the data preparation, modeling, and plotting process.
 *   `survival_curve.png`: The graphical output, including the clinical "Number at risk" table essential for HTA dossiers.
+
+
+## Phase 2: Cost-Effectiveness Extension (Partitioned-Survival Model)
+To demonstrate economic evaluation capability, the script integrates a Partitioned-Survival (Area-Under-the-Curve) framework:
+* **Restricted Mean Survival Time (RMST):** Calculated the area under the Kaplan-Meier curve within a 700-day horizon to estimate Mean Life-Years (LY).
+* **Health Outcomes:** Adjusted LYs with a utility weight (0.75) to calculate Quality-Adjusted Life Years (QALYs).
+* **Economic Synthesis:** Computed the Incremental Cost-Effectiveness Ratio (ICER). This showcases the technical transition from pure clinical survival data to drug-value monetization.
